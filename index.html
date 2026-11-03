@@ -3,100 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Asma Khanam | Computer Science Graduate</title>
-  <meta name="description" content="Portfolio of Asma Khanam, B.E. Computer Science (Data Science) graduate with skills in Linux, Git, AWS and front-end development.">
+  <title>Asma Khanam | Portfolio</title>
+  <meta name="description" content="Asma Khanam, Computer Science graduate skilled in Linux, Git, AWS and front-end basics.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="layout">
 
-    <header class="side">
-      <h1>Asma Khanam</h1>
-      <p class="role">Computer Science graduate (Data Science), pursuing a Master's in Computer Science</p>
-      <nav aria-label="Main">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <nav class="nav" aria-label="Main">
+    <a class="logo" href="#top">AK</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="pill">Hire me</a>
+    </div>
+  </nav>
 
-    <main>
-      <section id="about">
-        <h2>About me</h2>
-        <p>I completed my B.E. in Computer Science (Data Science) at Lords Institute of Engineering and Technology in 2025, and I am now doing my Master's in Computer Science. I enjoy working with Linux, Git and cloud basics, and I am building my front-end skills by making real web pages.</p>
-        <p>I am looking for an entry-level role where I can learn quickly and contribute from day one.</p>
-      </section>
+  <header class="hero" id="top">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Asma<br>Khanam</h1>
+      <p class="lead">Computer Science graduate (Data Science, 2025) and Master's student. I work with Linux, Git, AWS and clean front-end pages.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn ghost" href="resume.pdf">Download resume</a>
+      </div>
+    </div>
+    <div class="avatar">
+      <img src="photo.jpg" alt="Asma Khanam">
+    </div>
+  </header>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill-groups">
-          <div>
-            <h3>Cloud (AWS basics)</h3>
-            <ul><li>EC2</li><li>IAM</li><li>Target groups</li></ul>
-          </div>
-          <div>
-            <h3>Tools</h3>
-            <ul><li>Linux</li><li>Git</li><li>GitHub</li><li>Git Bash</li></ul>
-          </div>
-          <div>
-            <h3>Front end</h3>
-            <ul><li>HTML</li><li>CSS</li></ul>
-          </div>
-          <div>
-            <h3>Office</h3>
-            <ul><li>PowerPoint presentations</li><li>Documents</li></ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="education">
-        <h2>Education</h2>
-        <div class="item">
-          <h3>Master's in Computer Science</h3>
-          <p class="meta">Currently pursuing</p>
-        </div>
-        <div class="item">
-          <h3>B.E. in Computer Science (Data Science)</h3>
-          <p class="meta">Lords Institute of Engineering and Technology, 2025</p>
-        </div>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-        <p class="note">Replace these with your own real projects. Each one needs a GitHub link.</p>
-        <article class="item">
-          <h3>Personal portfolio website</h3>
-          <p>Responsive site built with HTML and CSS, hosted on GitHub Pages.</p>
-          <a href="https://github.com/YOUR-USERNAME/portfolio">View code on GitHub</a>
-        </article>
-        <article class="item">
-          <h3>Web server on AWS EC2</h3>
-          <p>Launched an EC2 instance, set up access with IAM, and served a web page behind a target group.</p>
-          <a href="https://github.com/YOUR-USERNAME/aws-ec2-webserver">View notes on GitHub</a>
-        </article>
-        <article class="item">
-          <h3>Linux command-line practice</h3>
-          <p>A repository of shell scripts and notes on file handling, permissions and processes.</p>
-          <a href="https://github.com/YOUR-USERNAME/linux-practice">View code on GitHub</a>
-        </article>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>The best way to reach me is by email.</p>
-        <ul class="contact">
-          <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
-          <li><a href="https://github.com/YOUR-USERNAME">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
-        </ul>
-      </section>
-    </main>
-
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>AWS EC2</span><span>IAM</span><span>Target Groups</span><span>Linux</span><span>Git</span><span>GitHub</span><span>HTML</span><span>CSS</span><span>PowerPoint</span>
+      <span>AWS EC2</span><span>IAM</span><span>Target Groups</span><span>Linux</span><span>Git</span><span>GitHub</span><span>HTML</span><span>CSS</span><span>PowerPoint</span>
+    </div>
   </div>
+
+  <main>
+    <section id="about" class="wrap about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <div>
+          <p>I finished my B.E. in Computer Science (Data Science) in 2025 and I am now studying for my Master's in Computer Science. I like turning what I learn into small, working projects that I can show.</p>
+          <p>I am looking for an entry-level role in cloud, Linux support, data or front-end, where I can keep learning and be useful from the first week.</p>
+        </div>
+        <ol class="timeline">
+          <li><strong>Master's in Computer Science</strong><span>In progress</span></li>
+          <li><strong>B.E. Computer Science (Data Science)</strong><span>Lords Institute of Engineering and Technology, 2025</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <div class="tiles">
+        <div class="tile t1"><h3>Cloud</h3><p>AWS EC2, IAM, target groups</p></div>
+        <div class="tile t2"><h3>Tools</h3><p>Linux, Git, GitHub, Git Bash</p></div>
+        <div class="tile t3"><h3>Front end</h3><p>HTML and CSS</p></div>
+        <div class="tile t4"><h3>Office</h3><p>PowerPoint and documents</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <p class="note">Replace these with your real projects and link each one to GitHub.</p>
+      <div class="projects">
+        <article class="card c1">
+          <h3>Portfolio website</h3>
+          <p>A responsive site built with HTML and CSS and hosted on GitHub Pages.</p>
+          <a href="https://github.com/asma0098/Portfolio">View on GitHub</a>
+        </article>
+        <article class="card c2">
+          <h3>Web server on AWS EC2</h3>
+          <p>Launched an instance, set up IAM access and served a page behind a target group.</p>
+          <a href="https://github.com/asma0098">View on GitHub</a>
+        </article>
+        <article class="card c3">
+          <h3>Linux practice</h3>
+          <p>Shell scripts and notes on files, permissions and processes.</p>
+          <a href="https://github.com/asma0098">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2>Let's work together</h2>
+      <a class="mail" href="mailto:your.email@example.com">asmakhanam631@gmail.com</a>
+      <p class="social"><a href="https://github.com/asma0098">GitHub</a> <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Asma Khanam</footer>
 </body>
 </html>
